@@ -1,1 +1,1 @@
-https://www.youtube.com/watch?v=YsPTM7nQZlo Bài 1
+- [Link Video Bài 1](https://www.youtube.com/watch?v=YsPTM7nQZlo)
