@@ -9,22 +9,18 @@ package com.mycompany.lab1;
  * @author hgiab
  */
 import java.util.Scanner;
-public class HinhChuNhat {
-    public static void main(String[] args) {
+public class HinhChuNhat{
+public static void main(String[] args){
 Scanner sc = new Scanner(System.in);
-
-System.out.print("Nhap chieu dai: ");
+System.out.print("Nhap Chieu Dai: ");
 double chieuDai = sc.nextDouble();
-
-System.out.print("Nhap chieu rong: ");
-double chieuRong = sc.nextDouble();
-
-double chuVi = 2 * (chieuDai + chieuRong);
+System.out.print("Nhap Chieu Rong: ");
+double chieuRong =sc.nextDouble();
+double chuVi = (chieuDai + chieuRong)*2;
 double dienTich = chieuDai * chieuRong;
+System.out.println("Chu vi HCN: " +chuVi);
+System.out.println("Dien tich HCN: " +dienTich);
+sc.close();
 
-System.out.println("Chu vi hinh chu nhat: " + chuVi);
-System.out.println("Dien tich hinh chu nhat: " + dienTich);
-
- sc.close();
-    }
+}    
 }
